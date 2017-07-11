@@ -51,7 +51,7 @@ class HtmlParser(BaseHtmlParser):
                         postcode = a.text
                         p = Data(
                             postalcode_key=postalcode_key,
-                            postcode=postcode,
+                            postalcode=postcode,
                         )
                         data.append(p)
                 except Exception as e:

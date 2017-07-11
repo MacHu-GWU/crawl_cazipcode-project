@@ -1,5 +1,9 @@
 # User Settings
 *.html
+*.csv
+*.json
+*.gz
+*.zip
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

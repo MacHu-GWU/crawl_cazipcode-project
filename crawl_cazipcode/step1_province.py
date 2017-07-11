@@ -56,7 +56,7 @@ scheduler = Scheduler(collection=c_province)
 
 if __name__ == "__main__":
     input_data_list = [
-        {"url": urlencoder.province(province_key)} \
+        {"url": urlencoder.province(province_key)}
         for province_key in province_key_list
     ]
     scheduler.do(input_data_list, multiprocess=True)
