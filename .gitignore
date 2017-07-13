@@ -2,8 +2,9 @@
 *.html
 *.csv
 *.json
-*.gz
+workspace/canada_postalcode.json.gz
 *.zip
+*.sqlite
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

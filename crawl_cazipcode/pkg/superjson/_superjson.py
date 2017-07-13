@@ -268,7 +268,7 @@ class SuperJson(object):
         )
 
         if compress:
-            s = compresslib.compress(s, return_type="str")
+            s = compresslib.compress(s, level=9, return_type="str")
 
         return s
 
@@ -367,7 +367,7 @@ class SuperJson(object):
 
         with open(abspath, "wb") as f:
             if is_compressed:
-                f.write(compresslib.compress(s, return_type="bytes"))
+                f.write(compresslib.compress(s, level=9, return_type="bytes"))
             else:
                 f.write(s.encode("utf-8"))
 

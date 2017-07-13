@@ -6,5 +6,5 @@
 """
 
 __version__ = "0.0.1"
-__short_description__ = "Crawl canada postal code data."
+__short_description__ = "Crawl Canada postal code data from multiple source."
 __license__ = "MIT"
